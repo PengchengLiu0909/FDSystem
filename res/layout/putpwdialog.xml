@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 非第一次登陆的输入密码对话框 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<EditText
+		android:id="@+id/password3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:password="true"
+		android:singleLine="true"
+		android:hint="@string/please_put_password"/>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	
+		<Button
+			android:id="@+id/sure1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/sure"
+			android:background="@drawable/button"
+			android:textSize="15sp"
+			android:layout_weight="1"/>
+	
+		<Button
+			android:id="@+id/exit1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/exit"
+			android:background="@drawable/button"
+			android:textSize="15sp"
+			android:layout_weight="1"/>
+		
+	</LinearLayout>
+</LinearLayout>
+

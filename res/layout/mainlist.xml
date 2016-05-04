@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 防盗系统的主界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#0099CC">
+    
+    <!-- 防盗图标 -->
+    <ImageView
+        android:id="@+id/fdtb"
+        android:contentDescription="@string/jiantou"
+        android:layout_width="18pt"
+        android:layout_height="18pt"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <!-- 防盗选项上的箭头 -->
+     <ImageView
+        android:id="@+id/fdjt"
+        android:contentDescription="@string/jiantou"
+        android:layout_width="16pt"
+        android:layout_height="16pt"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+    <!--防盗选项  -->
+     <TextView
+        android:id="@+id/fdxx"
+        android:layout_width="fill_parent"
+        android:layout_height="16pt"
+        android:layout_toRightOf="@id/fdtb"
+        android:paddingTop="1pt"
+        android:paddingLeft="4pt"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:textColor="#000000"/>
+     <!--防盗选项的介绍  -->
+     <TextView 
+        android:id="@+id/fdjj"
+        android:layout_width="fill_parent"
+        android:layout_height="10pt"
+        android:layout_toRightOf="@id/fdtb"
+        android:layout_below="@id/fdxx"
+        android:paddingLeft="4pt"
+        android:gravity="left"
+        android:singleLine="true"
+        android:textColor="#d2b48c"
+        android:textSize="6pt"/>
+
+</RelativeLayout>

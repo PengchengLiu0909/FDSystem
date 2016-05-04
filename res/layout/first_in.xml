@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 第一次进入系统时的页面布局文件 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="3pt">
+    
+    <TextView 
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/setPassword"
+        android:textSize="10pt"/>
+    
+    <LinearLayout
+        android:id="@+id/linearlayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    	
+        <TextView
+            android:id="@+id/textview_password01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="4pt"
+            android:paddingRight="4pt"
+            android:paddingBottom="4pt"
+            android:text="@string/putPassword"
+            android:textSize="8pt"/>
+        <EditText 
+            android:id="@+id/edittext_password01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:password="true"
+            android:singleLine="true"
+            android:hint="@string/hintPassword"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearlayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+        <TextView
+            android:id="@+id/textview_password02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="4dp"
+            android:paddingRight="4pt"
+            android:paddingBottom="4pt"
+            android:text="@string/surePassword"
+            android:textSize="8pt"/>
+        <EditText 
+            android:id="@+id/edittext_password02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:password="true"
+            android:singleLine="true"
+            android:hint="@string/hintPassword"/>        
+    </LinearLayout>
+    
+  	<LinearLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="vertical"
+  	    android:paddingLeft="8pt">
+        
+  	    <TextView
+  	        android:id="@+id/textview1"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/password_what"
+  	        android:textSize="8pt"
+  	        android:textColor="#FF0000"
+  	        android:paddingLeft="10pt"/>
+  	    <TextView
+  	        android:id="@+id/password_function1"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/password_func_01"
+  	        android:textSize="6pt"
+  	        android:textColor="#FF0000"
+  	        android:paddingLeft="13pt"/>
+  	    <TextView
+  	        android:id="@+id/password_function2"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:text="@string/password_func_02"
+  	        android:textColor="#FF0000"
+  	        android:textSize="6pt"
+  	        android:paddingLeft="13pt"/>
+  	    
+  	</LinearLayout>
+  	
+  	<LinearLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignParentLeft="true"
+  	    android:orientation="vertical"
+  	    android:paddingLeft="4pt"
+  	    android:paddingRight="4pt">
+  	    
+  	    <TextView 
+	        android:id="@+id/number_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="2pt"
+	        android:text="@string/setSafeNumber"
+	        android:textSize="10pt"/>
+  	    <EditText
+  	        android:id="@+id/edittext_number"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:singleLine="true"
+  	        android:hint="@string/hintNumber"/>"
+
+  	 </LinearLayout>
+  	 
+  	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8pt" >
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10pt"
+            android:text="@string/number_what"
+            android:textColor="#FF0000"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/password_function1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="13pt"
+            android:text="@string/safe_number_func_01"
+            android:textColor="#FF0000"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/password_function2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="13pt"
+            android:text="@string/safe_number_func_02"
+            android:textColor="#FF0000"
+            android:textSize="6pt" />
+    </LinearLayout>
+    
+  	<LinearLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    android:orientation="horizontal"
+  	    android:layout_gravity="bottom">
+        
+  	    <Button
+  	        android:id="@+id/sure_button"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:text="@string/sure"
+  	        android:background="@drawable/button"
+  	        android:textStyle="bold"/>
+  	    <Button
+  	        android:id="@+id/exit_button"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:layout_weight="1"
+  	        android:text="@string/exit"
+  	        android:background="@drawable/button"
+  	        android:textStyle="bold"/>
+  	    
+  	</LinearLayout>
+
+</LinearLayout>

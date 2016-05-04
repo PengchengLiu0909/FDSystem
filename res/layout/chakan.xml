@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 查看指令界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#0099CC" >
+     
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_1"
+        android:padding="5pt"
+        android:textSize="8pt"
+        android:textColor="#000000"
+        />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_2"
+        android:paddingTop="6pt"
+        android:paddingBottom="2pt"
+        android:paddingLeft="5pt"
+        android:textSize="8pt"
+        android:textColor="#000000"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_3"
+        android:paddingLeft="5pt"
+        android:textSize="7pt"
+        android:textColor="#FF0000"
+        />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_4"
+        android:paddingTop="6pt"
+        android:paddingBottom="2pt"
+        android:paddingLeft="5pt"
+        android:textSize="8pt"
+        android:textColor="#000000"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_5"
+        android:paddingLeft="5pt"
+        android:textSize="7pt"
+        android:textColor="#FF0000"
+        />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_6"
+        android:paddingTop="6pt"
+        android:paddingBottom="2pt"
+        android:paddingLeft="5pt"
+        android:textSize="8pt"
+        android:textColor="#000000"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_7"
+        android:paddingLeft="5pt"
+        android:textSize="7pt"
+        android:textColor="#FF0000"
+        />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_8"
+        android:paddingTop="6pt"
+        android:paddingBottom="2pt"
+        android:paddingLeft="5pt"
+        android:textSize="8pt"
+        android:textColor="#000000"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_9"
+        android:paddingLeft="5pt"
+        android:textSize="7pt"
+        android:textColor="#FF0000"
+        />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chakan_10"
+        android:layout_marginTop="8pt"
+        android:padding="5pt"
+        android:textSize="8pt"
+        android:textColor="#ff00ff"
+        />
+</LinearLayout>
+

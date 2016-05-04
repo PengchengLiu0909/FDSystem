@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#0099CC">
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baojing_1"
+        android:padding="5pt"
+        android:textSize="8pt"
+        android:textColor="#FFFFFF"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baojing_2"
+        android:layout_marginTop="8pt"
+        android:padding="5pt"
+        android:textSize="8pt"
+        android:textColor="#FFFFFF"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baojing_3"
+        android:layout_marginTop="8pt"
+        android:padding="5pt"
+        android:textSize="8pt"
+        android:textColor="#FF0000"/>
+    
+</LinearLayout>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <!-- 体验图标 -->
+    <ImageView
+        android:id="@+id/tytb"
+        android:contentDescription="@string/jiantou"
+        android:layout_width="16pt"
+        android:layout_height="16pt"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    
+     <ImageView
+        android:id="@+id/tyjt"
+        android:contentDescription="@string/jiantou"
+        android:layout_width="16pt"
+        android:layout_height="16pt"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+    
+    <!-- 体验选项 -->
+    <TextView
+        android:id="@+id/tyxx"   
+        android:layout_width="fill_parent"
+        android:layout_height="16pt"
+        android:layout_toRightOf="@id/tytb"
+        android:paddingTop="1pt"
+        android:paddingLeft="4pt"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:textColor="#000000"/>
+    
+    <!-- 体验简介 -->
+    <TextView 
+        android:id="@+id/tyjj"   
+        android:layout_width="fill_parent"
+        android:layout_height="10pt"
+        android:layout_toRightOf="@id/tytb"
+        android:layout_below="@id/tyxx"
+        android:paddingLeft="4pt"
+        android:gravity="left"
+        android:textColor="#d2b48c"
+        android:singleLine="true"
+        android:textSize="6pt"/>
+    
+</RelativeLayout>
+

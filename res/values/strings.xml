@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安卓防盗</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- first.xml -->
+    <string name="setPassword">设置防盗密码</string>
+    <string name="putPassword">输入密码：</string>
+    <string name="hintPassword">请输入防盗密码...</string>
+    <string name="surePassword">确认密码：</string>
+    <string name="password_what">防盗密码有什么用？？</string>
+    <string name="password_func_01">*防盗密码是指令的组成部分。</string>
+    <string name="password_func_02">*解锁和进入系统需要防盗密码。</string>
+    <string name="setSafeNumber">设置安全手机号码</string>
+    <string name="hintNumber">建议填写家人or朋友的电话号码...</string>
+    <string name="number_what">安全号码有什么用？？</string>
+    <string name="safe_number_func_01">*发送删除数据的指令。</string>
+    <string name="safe_number_func_02">*接收换卡通知的短信</string>
+    <string name="sure">确  定</string>
+    <string name="exit">退  出</string>
+    <string name="cancel">取  消</string>
+    <!-- 以上 -->
+    <string name="open">防盗保护开启</string>
+    <string name="jiantou">箭头</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="put_old_password">请输入旧密码</string>
+    <string name="put_new_password">请输入新密码</string>
+    <string name="sure_new_password">确认新密码</string>
+    <string name="put_new_password_again">再次输入新的密码</string>
+    <string name="please_put_password">请输入密码...</string>
+    <string name="old_number">旧号码</string>
+    <string name="put_old_number">输入旧号码</string>
+    <string name="new_number">新号码</string>
+    <string name="put_new_number">输入新号码</string>
+    <!-- baojing.xml -->
+    <string name="baojing_1">在手机被盗或者丢失的情况下，可以使用任意手机发送报警指令到该手机.</string>
+    <string name="baojing_2">当手机收到指令后，就会以最大的声音发出警报，帮助你找到该手机.</string>
+    <string name="baojing_3">发送报警指令的格式为:baojing#防盗密码.</string>
+    <!-- dingwei.xml -->
+    <string name="dingwei_1">在手机被盗或者丢失的情况下，可以使用任意手机发送定位指令到该手机,获取手机位置，帮你找到手机.</string>
+   	<string name="dingwei_2">手机收到定位指令后，会进行定位，当定位成功后，就会以短信的方式告知位置信息.</string>
+   	<string name="dingwei_3">发送定位指令的格式为：dingwei#防盗密码.</string>
+   	<!-- suoding.xml -->
+   	<string name="suoding_0">锁定被盗或者丢失手机的方式有两种：</string>
+   	<string name="suoding_1">1.向手机发送了锁定指令.</string>
+   	<string name="suoding_2">2.手机的SIM卡被更换.</string>
+   	<string name="suoding_3">以上两种情况，防盗系统将为你锁定手机，防止别人使用该手机.</string>
+   	<string name="suoding_4">发送锁定指令的格式为：suoding#防盗密码.</string>
+   	<!-- huanka.xml -->
+   	<string name="huanka_1">手机被盗后，如果该手机的SIM被更换，会向你设置的安全号码以短信的方式发送一条提示信息.</string>
+   	<string name="huanka_2">你可以通过这条短信，获取被盗手机的号码，然后发送防盗指令来保护隐私.</string>
+   	<!-- xiaohui.xml -->
+   	<string name="xiaohui_1">手机被盗或者丢失后，可以通过安全号码发送销毁指令到该手机，可以彻底销毁手机上的数据.</string>
+   	<string name="xiaohui_2">销毁的数据包括：联系人、短信、照片以及SD上的其他数据.</string>
+   	<string name="xiaohui_3">注意：销毁指令必须使用安全手机号发送.</string>
+   	<string name="xiaohui_4">发送销毁指令的格式为：xiaohui#防盗密码.</string>
+   	
+   	<!-- chakan.xml -->
+   	<string name="chakan_1">手机被盗后，可发送下述指令遥控被盗手机</string>
+    <string name="chakan_2">定位手机：</string>
+    <string name="chakan_3">dingwei#防盗密码</string>
+    <string name="chakan_4">销毁数据：</string>
+    <string name="chakan_5">xiaohui#防盗密码</string>
+    <string name="chakan_6">锁定手机：</string>
+    <string name="chakan_7">suoding#防盗密码</string>
+    <string name="chakan_8">发报警音：</string>
+    <string name="chakan_9">baojing#防盗密码</string>
+    <string name="chakan_10">注：销毁数据指令必须用安全手机号发送</string>
+   	 <!-- AndroidManifest.xml -->
+   	<string name="mainactivity_name">安卓防盗</string> 
+   	<string name= "fangdao">手机防盗</string>
+   	<string name= "dingwei">远程定位</string>
+   	<string name ="suoding">屏幕锁定</string>
+   	<string name ="xiaohui">销毁数据</string>
+   	<string name ="jingbao">警报通知</string>
+   	<string name="huanka">换卡短信通知</string>
+	<string name ="shezhi">防盗功能设置</string>
+	<string name ="chakan">防盗指令查看</string>
+	<string name = "tiyan">防盗功能一览</string>
+	<string name="set_password">修改防盗密码</string>
+	<string name="set_number">修改安全号码</string>
+</resources>
