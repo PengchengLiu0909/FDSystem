@@ -1,4 +1,9 @@
-# FDSystem
+## FDSystem
 
 security application based on android
-Application contains mainly functions: remote positioning, remote lock screen, remote alarm, test SIM card change, remote delete, etc
+Application contains mainly functions: <br>
+* remote positioning
+* remote lock screen
+* remote alarm
+* notify SIM card change
+* remote delete sms/photo etc
